@@ -5,6 +5,7 @@
     ],
     "description": "Default config for all jop-software related projects",
     "rangeStrategy": "pin",
+    "automergeType": "branch",
     "packageRules": [
         {
             "matchDepTypes": [

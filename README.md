@@ -6,6 +6,8 @@ Shared renovate config for all projects.
 
 ## Usage
 
+### From Github
+
 ```json5
 // renovate.json
 {
@@ -15,7 +17,26 @@ Shared renovate config for all projects.
 }
 ```
 
+### From npm
+
+```json5
+// renovate.json
+{
+    "extends": [
+        "@jop-software"
+    ]
+}
+```
+
+See renovates docs about [Sharable Config Presets](https://docs.renovatebot.com/config-presets/) for more information.
+
 ## Features
+
+### Auto Merging
+
+This enables auto merging for all minor and patch updates as well as dev dependencies.
+
+Automerging uses the `branch` strategy to not pollute the main branch with PRs.
 
 ### Package Rules
 
