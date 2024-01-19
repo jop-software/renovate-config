@@ -15,7 +15,7 @@
   "scripts": {
     "validate": "renovate-config-validator default.json",
     "test": "pnpm run validate",
-    "release": "pnpm publish",
+    "release": "pnpm publish --access public --no-git-checks",
     "prepare": "pnpm run test"
   },
   "devDependencies": {
