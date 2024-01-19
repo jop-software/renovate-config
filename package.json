@@ -1,6 +1,6 @@
 {
   "name": "@jop-software/renovate-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "description": "jop-software preset for Renovate",
   "license": "MIT",
