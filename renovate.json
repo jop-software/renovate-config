@@ -1,0 +1,5 @@
+{
+    "extends": [
+      "github>jop-software/renovate-config"
+    ]
+  }

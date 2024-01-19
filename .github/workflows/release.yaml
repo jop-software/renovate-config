@@ -1,0 +1,19 @@
+name: Relase
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yaml
+
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Release to NPM
+        run: pnpm release

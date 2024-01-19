@@ -1,0 +1,30 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "description": "Default config for all jop-software related projects",
+    "rangeStrategy": "pin",
+    "packageRules": [
+        {
+            "matchDepTypes": [
+                "devDependencies"
+            ],
+            "automerge": true
+        },
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "matchCurrentVersion": "!/^0/",
+            "automerge": true
+        },
+        {
+            "matchPackagePatterns": [
+                "^actions/.*-artifact$"
+            ],
+            "groupName": "actions/artifact"
+        }
+    ]
+}

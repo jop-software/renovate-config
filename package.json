@@ -1,0 +1,24 @@
+{
+  "name": "@jop-software/renovate-config",
+  "version": "0.1.0",
+  "description": "jop-software preset for Renovate",
+  "license": "MIT",
+  "homepage": "https://github.com/jop-software/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jop-software/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jop-software/renovate-config/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "test": "pnpm run validate",
+    "release": "pnpm publish",
+    "prepare": "pnpm run test"
+  },
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@8.14.1"
+}
