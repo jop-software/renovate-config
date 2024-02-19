@@ -52,6 +52,10 @@ Automerge all `devDependencies` updates.
 
 Automerge all minor and patch updates.
 
+#### Grafana Loki
+
+Groups `grafana/loki` and `grafana/promtail` together.
+
 <div align=center>
     <span>&copy; 2024, jop-software Inh. Johannes Przymusinski</span>
 </div>
