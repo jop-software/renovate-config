@@ -1,5 +1,3 @@
 {
-    "extends": [
-      "github>jop-software/renovate-config"
-    ]
-  }
+  "extends": ["github>jop-software/renovate-config"]
+}

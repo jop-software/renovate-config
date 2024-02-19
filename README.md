@@ -8,23 +8,19 @@ Shared renovate config for all projects.
 
 ### From Github
 
-```json5
+```json
 // renovate.json
 {
-    "extends": [
-        "github>jop-software/renovate-config"
-    ]
+  "extends": ["github>jop-software/renovate-config"]
 }
 ```
 
 ### From npm
 
-```json5
+```json
 // renovate.json
 {
-    "extends": [
-        "@jop-software"
-    ]
+  "extends": ["@jop-software"]
 }
 ```
 
@@ -59,4 +55,3 @@ Groups `grafana/loki` and `grafana/promtail` together.
 <div align=center>
     <span>&copy; 2024, jop-software Inh. Johannes Przymusinski</span>
 </div>
-    
