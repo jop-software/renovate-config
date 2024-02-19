@@ -26,6 +26,13 @@
                 "^actions/.*-artifact$"
             ],
             "groupName": "actions/artifact"
+        },
+        {
+          "matchPackageNames": [
+            "grafana/loki",
+            "grafana/promtail"
+          ],
+          "groupName": "loki"
         }
     ]
 }
