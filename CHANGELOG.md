@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.1.2 (04-06-2026)
+
+- Fix Github release creation
+
 ## Version 1.1.1 (04-06-2026)
 
 - Remove `rangeStrategy: pin`
