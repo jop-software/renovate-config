@@ -11,8 +11,8 @@
       "automerge": true
     },
     {
-      "matchPackagePatterns": ["^actions/.*-artifact$"],
-      "groupName": "actions/artifact"
+      "groupName": "actions/artifact",
+      "matchPackageNames": ["/^actions/.*-artifact$/"]
     },
     {
       "matchPackageNames": ["grafana/loki", "grafana/promtail"],
